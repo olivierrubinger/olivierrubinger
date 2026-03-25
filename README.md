@@ -5,22 +5,13 @@
 ###
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/olivier-rubinger/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="33" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/olivierrubinger/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="33" alt="instagram logo"  />
-  </a>
-  <a href="olivierrubinger@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="50" height="33" alt="gmail logo"  />
-  </a>
-  <a href="+5531984121221" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="50" height="33" alt="whatsapp logo"  />
-  </a>
-  <a href="rubinger" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="50" height="33" alt="discord logo"  />
-  </a>
+  <a href="https://www.linkedin.com/in/olivier-rubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.instagram.com/olivierrubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="40" alt="Instagram" /></a>&nbsp;
+  <a href="mailto:olivierrubinger@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="40" alt="Gmail" /></a>&nbsp;
+  <a href="https://wa.me/5531984121221"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="40" height="40" alt="WhatsApp" /></a>&nbsp;
+  <a href="https://discord.com/users/SEU_ID_AQUI"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="40" height="40" alt="Discord" /></a>
 </div>
+
 
 ###
 
@@ -78,10 +69,8 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olivierrubinger/olivierrubinger/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/olivierrubinger/olivierrubinger/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/olivierrubinger/olivierrubinger/output/pacman-contribution-graph.svg">
-</picture>
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=gruvbox_light"  />
+</div>
 
 ###

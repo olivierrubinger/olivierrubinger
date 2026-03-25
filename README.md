@@ -41,6 +41,11 @@ const developer = {
   ]
 }
 ```
+<p align="center">
+  <a href="./docs/OlivierResume2026.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20View%20CV-000000?style=for-the-badge" />
+  </a>
+</p>
 
 I’m a **23-year-old Brazilian Software Engineer** passionate about building **clean, scalable, and high-performance applications**.
 

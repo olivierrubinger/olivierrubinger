@@ -50,7 +50,7 @@ I’ve lived in **Brazil, Canada, and the UAE**, which helped me become highly a
 
 Currently, I work at Breach Insurance, a U.S.-based insurtech in the crypto space, where I build modern applications focused on performance, real-time data, and strong UI/UX. Recently, I led a full website revamp that improved load times by 80%, worked on real-time wallet monitoring with WebSockets, and helped streamline delivery workflows with Docker + GitHub Actions.
 
-Before that, I worked at Qintess / TJPA Court, helping modernize 14+ legacy judicial systems with Angular, Vue.js, Java, and Spring Boot — improving performance, maintainability, and accessibility for large-scale public platforms.
+Before that, I worked at Qintess / TJPA Court, helping modernize 14+ legacy judicial systems with Angular, Vue.js, Java, and Spring Boot, improving performance, maintainability, and accessibility for large-scale public platforms.
 
 <h3 align="left">🛠 My Tech Stack:</h3>
 

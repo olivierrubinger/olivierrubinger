@@ -15,7 +15,7 @@
 
 ###
 
-<h1 align="center">Welcome to my Github!👋</h1>
+<h1 align="center">Welcome to my Github! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="4%"></h1>
 
 ###
 
@@ -23,15 +23,43 @@
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=blinking&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
 </div>
 
+```md
+# Hey, I'm Olivier 👨‍💻
+
+const developer = {
+  name: "Olivier",
+  role: "Full-Stack Software Engineer",
+  nationality: "Brazilian",
+  experience: "5+ years",
+  languages: ["Portuguese", "English", "Italian", "Spanish"],
+  mainstack: ["React", "Next.js", "TypeScript", "Node.js", "Go"],
+  passions: [
+    "scalable web apps",
+    "real-time systems",
+    "clean architecture",
+    "performance optimization"
+  ]
+}
+```
+
+I’m a **23-year-old Brazilian Software Engineer** passionate about building **clean, scalable, and high-performance applications**.
+
+My main playground is **React, Next.js, TypeScript, Node.js, and Go**, and I love working on products that combine **great UI/UX**, **solid architecture**, and **real-world impact**.
+
+I’ve lived in **Brazil, Canada, and the UAE**, which helped me become highly adaptable, curious, and comfortable working with different teams, cultures, and challenges.
+
+## 🚀 What I'm working on
+
+- Building modern and scalable web applications
+- Developing real-time features with WebSockets
+- Improving performance, DX, and maintainability
+- Studying high-level backend architecture, distributed systems, and cloud workflows
+
 ###
 
-<h3 align="left">👩‍💻  About Me:</h3>
+Currently, I work at Breach Insurance, a U.S.-based insurtech in the crypto space, where I build modern applications focused on performance, real-time data, and strong UI/UX. Recently, I led a full website revamp that improved load times by 80%, worked on real-time wallet monitoring with WebSockets, and helped streamline delivery workflows with Docker + GitHub Actions.
 
-###
-
-<p align="left">🚀 What I’m currently working on:<br><br>Building scalable web applications with React, Next.js, Node.js, and Go, with a strong focus on performance, usability, and clean architecture.<br><br>🤝 I’m open to collaborating on:<br><br>Full-stack projects, open-source tools, developer platforms, and products involving real-time features, WebSockets, or microservices.<br><br>🌱 I’m currently learning:<br><br>Advanced system design, backend architecture, Go microservices, and cloud and DevOps best practices for scalable systems.<br><br>💬 Ask me about:<br><br>React, Next.js, Node.js, frontend architecture, performance optimization, clean code, and building solid full-stack applications.<br><br>⚡ Fun fact:<br><br>I’ve lived in Brazil, Canada, and the UAE, which helped shape a global mindset and made me comfortable working across different cultures and teams. 🌍</p>
-
-###
+Before that, I worked at Qintess / TJPA Court, helping modernize 14+ legacy judicial systems with Angular, Vue.js, Java, and Spring Boot — improving performance, maintainability, and accessibility for large-scale public platforms.
 
 <h3 align="left">🛠 My Tech Stack:</h3>
 
@@ -80,3 +108,14 @@
 </div>
 
 ###
+
+### 🎮 Let's play Pokémon together~
+<img src="https://toy.cloudreve.org/image" width="300"/> 
+
+<img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/> <a href="https://toy.cloudreve.org/control?button=2&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/up.png" width="30"/></a>
+<br><a href="https://toy.cloudreve.org/control?button=1&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/left.png" width="30"/></a><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><a href="https://toy.cloudreve.org/control?button=0&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/right.png" width="30"/></a><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><a href="https://toy.cloudreve.org/control?button=5&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/B.png" width="30"/></a> <a href="https://toy.cloudreve.org/control?button=4&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/A.png" width="30"/></a>
+<br><a href="https://toy.cloudreve.org/control?button=3&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/down.png" width="30"/></a>
+<br><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/blank.png" width="30"/><a href="https://toy.cloudreve.org/control?button=6&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/select.png" width="74"/></a> <a href="https://toy.cloudreve.org/control?button=7&callback=https://github.com/HFO4"><img src="https://raw.githubusercontent.com/HFO4/HFO4/master/img/start.png" width="65" /></a>
+
+Click buttons above to issue new gamepad input, refresh this page to view the newest game screen.
+(Credits to HFO4! [Gameboy.Live](https://github.com/HFO4/gameboy.live) )

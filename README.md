@@ -4,14 +4,13 @@
 
 ###
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/olivier-rubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://www.instagram.com/olivierrubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="40" alt="Instagram" /></a>&nbsp;
-  <a href="mailto:olivierrubinger@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="40" alt="Gmail" /></a>&nbsp;
-  <a href="https://wa.me/5531984121221"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="40" height="40" alt="WhatsApp" /></a>&nbsp;
-  <a href="https://discord.com/users/SEU_ID_AQUI"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="40" height="40" alt="Discord" /></a>
-</div>
-
+<table align="center" border="0"><tr>
+<td><a href="https://www.linkedin.com/in/olivier-rubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" /></a></td>
+<td><a href="https://www.instagram.com/olivierrubinger/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="40" alt="Instagram" /></a></td>
+<td><a href="mailto:olivierrubinger@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="40" alt="Gmail" /></a></td>
+<td><a href="https://wa.me/5531984121221"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="40" height="40" alt="WhatsApp" /></a></td>
+<td><a href="https://discord.com/users/SEU_ID_AQUI"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="40" height="40" alt="Discord" /></a></td>
+</tr></table>
 
 ###
 

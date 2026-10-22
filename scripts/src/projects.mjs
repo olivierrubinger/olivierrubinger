@@ -78,7 +78,7 @@ const COMMON_CSS = `
 
 // ---------------------------------------------------------------- WeGrow
 async function wegrow() {
-  const s = new Svg(W, H, 'WeGrow — your entire acquisition system, built and running in 90 days. Co-founded by Olivier Rubinger.');
+  const s = new Svg(W, H, 'WeGrow: your entire acquisition system, built and running in 90 days. Co-founded by Olivier Rubinger.');
   const BG = '#040303';
   const C = T.cyan;
   const rand = rng(11);
@@ -111,7 +111,7 @@ async function wegrow() {
   // left column
   const X = 40;
   s.add(
-    s.text([{ t: '02', fill: C }, { t: '  —  CO-FOUNDER', fill: '#8A8A8A' }, { t: '  ·  SINCE JUN 2026', fill: '#555352' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }),
+    s.text([{ t: '02', fill: C }, { t: '  /  CO-FOUNDER', fill: '#8A8A8A' }, { t: '  ·  SINCE JUN 2026', fill: '#555352' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }),
   );
   // official horizontal logo (white on transparent, 620×127)
   const wgH = 40;
@@ -123,7 +123,7 @@ async function wegrow() {
     s.text('built and running in 90 days.', { x: X, y: 163, font: 'serifI', size: 21, fill: 'rgba(255,255,255,.82)' }),
   );
   const desc = wrap(
-    'We map how customers actually find you, design the process behind it and build the systems that run it — CRM, AI sales agents, prospecting and data.',
+    'We map how customers actually find you, design the process behind it and build the systems that run it: CRM, AI sales agents, prospecting and data.',
     'bvp400', 12.5, 350,
   );
   desc.forEach((l, i) => s.add(s.text(l, { x: X, y: 194 + i * 18.5, font: 'bvp400', size: 12.5, fill: '#8A8A8A' })));
@@ -142,7 +142,7 @@ async function wegrow() {
 
 // ---------------------------------------------------------------- Tarsi AI
 async function tarsi() {
-  const s = new Svg(W, H, 'Tarsi AI — behind every great brand. AI-powered brand ecosystem co-founded by Olivier Rubinger.');
+  const s = new Svg(W, H, 'Tarsi AI: behind every great brand. AI-powered brand ecosystem co-founded by Olivier Rubinger.');
   const G = '#0D3B1E';
   const G2 = '#0C511B';
   const O = T.orange;
@@ -192,7 +192,7 @@ async function tarsi() {
 
   // left column
   const X = 40;
-  s.add(s.text([{ t: '03', fill: O }, { t: '  —  CO-FOUNDER', fill: '#5B6B52' }, { t: '  ·  SINCE APR 2026', fill: '#8E9A84' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }));
+  s.add(s.text([{ t: '03', fill: O }, { t: '  /  CO-FOUNDER', fill: '#5B6B52' }, { t: '  ·  SINCE APR 2026', fill: '#8E9A84' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }));
   // official logo, inlined as vector and cropped to the artwork's bbox
   const logo = brand('tarsi-logo.svg')
     .toString()
@@ -204,7 +204,7 @@ async function tarsi() {
   s.add(`<svg x="${X}" y="62" width="${n((tH * TB[2]) / TB[3])}" height="${tH}" viewBox="${TB.join(' ')}">${logo}</svg>`);
   s.add(s.text([{ t: 'Behind every great brand', fill: G }, { t: '.', fill: O }], { x: X, y: 142, font: 'dmSerifI', size: 23 }));
   const desc = wrap(
-    'An AI-powered brand ecosystem: professional product photos, custom logos, brandbooks and an online store — identity, content and presence, all connected.',
+    'An AI-powered brand ecosystem with professional product photos, custom logos, brandbooks and an online store. Identity, content and presence, all connected.',
     'dmSans400', 12.8, 352,
   );
   desc.forEach((l, i) => s.add(s.text(l, { x: X, y: 174 + i * 18.5, font: 'dmSans400', size: 12.8, fill: '#4A5A42' })));

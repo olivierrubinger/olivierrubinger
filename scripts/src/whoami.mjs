@@ -34,10 +34,10 @@ export async function build() {
   s.add(
     `<rect width="${W}" height="40" fill="#111114"/><path d="M0 40.5H${W}" stroke="${T.line}"/>`,
     [24, 44, 64].map((x) => `<circle cx="${x}" cy="20" r="5.5" fill="#26262C"/>`).join(''),
-    s.text([{ t: 'olivier@rubinger', fill: T.muted }, { t: ': ~ — zsh', fill: T.faint }], {
+    s.text([{ t: 'olivier@rubinger', fill: T.muted }, { t: ': ~ · zsh', fill: T.faint }], {
       x: W / 2, y: 24.5, font: 'mono400', size: 11.5, anchor: 'middle',
     }),
-    s.text([{ t: '01', fill: T.lime }, { t: '  —  WHOAMI', fill: T.faint }], {
+    s.text([{ t: '01', fill: T.lime }, { t: '  /  WHOAMI', fill: T.faint }], {
       x: W - 22, y: 24.5, font: 'mono500', size: 10.5, ls: 1.4, anchor: 'end',
     }),
   );
@@ -141,11 +141,11 @@ export async function build() {
   const vx = ix + 86;
   const rows = [
     ['Role', [{ t: 'Senior Full-Stack Software Engineer' }]],
-    ['Day job', [{ t: 'Breach Insurance' }, { t: ' — crypto insurtech, Boston', fill: T.muted }]],
+    ['Day job', [{ t: 'Breach Insurance' }, { t: ' · crypto insurtech, Boston', fill: T.muted }]],
     ['Founder', [{ t: 'WeGrow' }, { t: ' · ', fill: T.ghost }, { t: 'Tarsi AI' }]],
     ['Home', [{ t: 'Belo Horizonte, Brazil' }]],
     ['Lived', [{ t: 'Brazil' }, { t: ' · ', fill: T.ghost }, { t: 'Canada' }, { t: ' · ', fill: T.ghost }, { t: 'UAE' }]],
-    ['Uptime', [{ t: '24 years' }, { t: ' · ', fill: T.ghost }, { t: '5+ shipping software', fill: T.muted }]],
+    ['Uptime', [{ t: '24 years' }, { t: ' · ', fill: T.ghost }, { t: '6+ yrs shipping software', fill: T.muted }]],
     ['Speaks', [{ t: 'pt  en  es  it' }, { t: '  + latin', fill: T.muted }]],
     ['Stack', [{ t: 'React · Next.js · TypeScript · Node · Go' }]],
     ['Into', [{ t: 'real-time systems, clean architecture' }]],

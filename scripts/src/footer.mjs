@@ -5,7 +5,7 @@ const W = 840;
 const H = 250;
 
 export async function build() {
-  const s = new Svg(W, H, "Let's build something that grows — open to collaborations, consulting and interesting problems.");
+  const s = new Svg(W, H, "Let's build something that grows. Open to collaborations, consulting and interesting problems.");
   const COLS = 70;
   const ROWS = 6;
   const gx = W / COLS;

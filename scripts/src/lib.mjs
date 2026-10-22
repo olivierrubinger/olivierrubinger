@@ -216,7 +216,7 @@ export function label(svg, x, y, num, name, o = {}) {
   return svg.text(
     [
       { t: num, fill: o.numFill ?? T.lime },
-      { t: '  —  ' + name.toUpperCase(), fill: o.fill ?? T.muted },
+      { t: '  /  ' + name.toUpperCase(), fill: o.fill ?? T.muted },
     ],
     { x, y, font: 'mono500', size: 11, ls: 1.4, anchor: o.anchor },
   );

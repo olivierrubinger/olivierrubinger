@@ -26,7 +26,7 @@ function halftone(text, key, size, cx, baseline, pitch) {
 }
 
 export async function build() {
-  const s = new Svg(W, H, 'Olivier Rubinger — Senior Full-Stack Engineer, co-founder of WeGrow and Tarsi AI');
+  const s = new Svg(W, H, 'Olivier Rubinger, Senior Full-Stack Engineer, co-founder of WeGrow and Tarsi AI');
   const rand = rng(42);
 
   s.css(`

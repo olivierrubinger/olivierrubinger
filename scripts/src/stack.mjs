@@ -107,8 +107,8 @@ export async function build() {
   const clip = clipCard(s);
   s.add(frame(s), `<g ${clip}>`);
   s.add(
-    s.text([{ t: '05', fill: T.lime }, { t: '  —  STACK', fill: T.muted }], { x: 32, y: 44, font: 'mono500', size: 11, ls: 1.4 }),
-    s.text('front · back · data · infra — 30 keys, all of them used', { x: W - 32, y: 44, font: 'mono500', size: 10.5, ls: 0.6, fill: T.faint, anchor: 'end' }),
+    s.text([{ t: '05', fill: T.lime }, { t: '  /  STACK', fill: T.muted }], { x: 32, y: 44, font: 'mono500', size: 11, ls: 1.4 }),
+    s.text('front · back · data · infra · 30 keys, all of them used', { x: W - 32, y: 44, font: 'mono500', size: 10.5, ls: 0.6, fill: T.faint, anchor: 'end' }),
   );
 
   // case

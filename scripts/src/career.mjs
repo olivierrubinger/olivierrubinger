@@ -4,14 +4,14 @@ import { Svg, T, measure, frame, clipCard, n } from './lib.mjs';
 const W = 840;
 
 const COMMITS = [
-  { lane: 0, hash: 'a1f3c9e', refs: [['HEAD → main', T.lime], ['wegrow', T.cyan]], type: 'feat', msg: 'co-founded WeGrow — AI-powered growth systems', date: 'jun 2026', dot: T.cyan },
-  { lane: 1, hash: '7be21d4', refs: [['tarsi-ai', T.orange]], type: 'feat', msg: 'co-founded Tarsi AI — the AI brand ecosystem', date: 'apr 2026', dot: T.orange },
+  { lane: 0, hash: 'a1f3c9e', refs: [['HEAD → main', T.lime], ['wegrow', T.cyan]], type: 'feat', msg: 'co-founded WeGrow, AI-powered growth systems', date: 'jun 2026', dot: T.cyan },
+  { lane: 1, hash: '7be21d4', refs: [['tarsi-ai', T.orange]], type: 'feat', msg: 'co-founded Tarsi AI, the AI brand ecosystem', date: 'apr 2026', dot: T.orange },
   { lane: 0, hash: '3c9e1aa', type: 'feat', msg: 'senior full-stack @ Breach Insurance · crypto insurtech, Boston', date: 'jan 2025', detail: '−80% load time · +30% app performance · real-time wallet monitoring (WebSockets + Go)' },
-  { lane: 0, hash: '9d02b7f', type: 'refactor', msg: '14+ legacy judicial systems modernized @ Qintess · TJPA Court', date: 'apr 2024', detail: 'Angular · Vue · Spring Boot — +40% performance, −30% support requests' },
+  { lane: 0, hash: '9d02b7f', type: 'refactor', msg: '14+ legacy judicial systems modernized @ Qintess · TJPA Court', date: 'apr 2024', detail: 'Angular · Vue · Spring Boot · +40% performance, −30% support requests' },
   { lane: 0, hash: 'e44a10c', type: 'feat', msg: 'full-stack MERN @ Cert One', date: 'sep 2022', detail: 'SQL → MongoDB migration (+35% query perf) · AWS S3 · Firebase Auth' },
   { lane: 0, hash: '1b7f0c2', type: 'merge', msg: 'shipped an e-commerce @ i9 Tecnologia', date: 'aug 2021', detail: '+300% online sales · React · Node.js · Firebase · Redis' },
-  { lane: 1, hash: '5c0ffee', type: 'chore', msg: 'web dev intern @ Metasense — Braga, PT (remote)', date: 'may 2020' },
-  { lane: 1, hash: '2e4b1d9', type: 'chore', msg: 'apprentice dev @ Key2enable assistive tech — Abu Dhabi', date: 'sep 2019' },
+  { lane: 1, hash: '5c0ffee', type: 'chore', msg: 'web dev intern @ Metasense, Braga PT (remote)', date: 'may 2020' },
+  { lane: 1, hash: '2e4b1d9', type: 'chore', msg: 'apprentice dev @ Key2enable assistive tech, Abu Dhabi', date: 'sep 2019' },
   { lane: 0, hash: '0000001', refs: [['root', T.muted]], type: 'init', msg: 'guitar & music-theory teacher', date: '2018' },
 ];
 
@@ -54,7 +54,7 @@ export async function build() {
 
   // header
   s.add(
-    s.text([{ t: '04', fill: T.lime }, { t: '  —  CAREER', fill: T.muted }], { x: 32, y: 44, font: 'mono500', size: 11, ls: 1.4 }),
+    s.text([{ t: '04', fill: T.lime }, { t: '  /  CAREER', fill: T.muted }], { x: 32, y: 44, font: 'mono500', size: 11, ls: 1.4 }),
     s.text('9 commits · 3 branches · since 2018', { x: W - 32, y: 44, font: 'mono500', size: 10.5, ls: 1.2, fill: T.faint, anchor: 'end' }),
     s.text([{ t: '$ ', fill: T.lime }, { t: 'git log --graph --decorate ', fill: T.text }, { t: 'career', fill: T.cyan }], {
       x: 32, y: 84, font: 'mono400', size: 13,

@@ -1,0 +1,23 @@
+{
+  "name": "olivierrubinger-readme-assets",
+  "private": true,
+  "description": "Generates the animated SVG cards used in the profile README.",
+  "scripts": {
+    "build": "node build.mjs",
+    "capture": "node capture.mjs"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/dm-serif-display": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "d3-geo": "^3.1.1",
+    "geist": "^1.8.2",
+    "opentype.js": "^2.0.0",
+    "puppeteer-core": "^25.16.0",
+    "simple-icons": "^16.35.0",
+    "subset-font": "^2.9.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

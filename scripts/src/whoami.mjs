@@ -145,7 +145,7 @@ export async function build() {
     ['Founder', [{ t: 'WeGrow' }, { t: ' · ', fill: T.ghost }, { t: 'Tarsi AI' }]],
     ['Home', [{ t: 'Belo Horizonte, Brazil' }]],
     ['Lived', [{ t: 'Brazil' }, { t: ' · ', fill: T.ghost }, { t: 'Canada' }, { t: ' · ', fill: T.ghost }, { t: 'UAE' }]],
-    ['Uptime', [{ t: '23 years' }, { t: ' · ', fill: T.ghost }, { t: '5+ shipping software', fill: T.muted }]],
+    ['Uptime', [{ t: '24 years' }, { t: ' · ', fill: T.ghost }, { t: '5+ shipping software', fill: T.muted }]],
     ['Speaks', [{ t: 'pt  en  es  it' }, { t: '  + latin', fill: T.muted }]],
     ['Stack', [{ t: 'React · Next.js · TypeScript · Node · Go' }]],
     ['Into', [{ t: 'real-time systems, clean architecture' }]],

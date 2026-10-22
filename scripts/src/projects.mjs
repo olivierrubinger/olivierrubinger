@@ -7,6 +7,8 @@ const W = 840;
 const H = 340;
 const shot = (name) =>
   'data:image/jpeg;base64,' + fs.readFileSync(new URL(`../screens/${name}-lp.jpg`, import.meta.url)).toString('base64');
+// Official logos live in ../brand.
+const brand = (file) => fs.readFileSync(new URL(`../brand/${file}`, import.meta.url));
 
 // Browser window with an auto-scrolling page screenshot.
 function browser(s, o) {
@@ -111,11 +113,10 @@ async function wegrow() {
   s.add(
     s.text([{ t: '02', fill: C }, { t: '  —  CO-FOUNDER', fill: '#8A8A8A' }, { t: '  ·  SINCE JUN 2026', fill: '#555352' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }),
   );
-  // wordmark: heavy "we" + serif italic "grow"
-  const weW = measure('we', 'bvp800', 46, -1.5);
+  // official horizontal logo (white on transparent, 620×127)
+  const wgH = 40;
   s.add(
-    s.text('we', { x: X - 2, y: 104, font: 'bvp800', size: 46, fill: '#fff', ls: -1.5 }),
-    s.text('grow', { x: X + weW + 2, y: 104, font: 'serifI', size: 54, fill: '#fff' }),
+    `<image href="data:image/png;base64,${brand('wegrow-logo.png').toString('base64')}" x="${X}" y="68" width="${n((wgH * 620) / 127)}" height="${wgH}"/>`,
   );
   s.add(
     s.text('Your entire acquisition system,', { x: X, y: 140, font: 'bvp600', size: 17, fill: '#fff' }),
@@ -192,11 +193,15 @@ async function tarsi() {
   // left column
   const X = 40;
   s.add(s.text([{ t: '03', fill: O }, { t: '  —  CO-FOUNDER', fill: '#5B6B52' }, { t: '  ·  SINCE APR 2026', fill: '#8E9A84' }], { x: X, y: 46, font: 'mono500', size: 11, ls: 1.4 }));
-  const tw = measure('Tarsi', 'dmSerif', 50);
-  s.add(
-    s.text('Tarsi', { x: X - 2, y: 104, font: 'dmSerif', size: 50, fill: G }),
-    s.text('AI', { x: X + tw + 6, y: 104, font: 'dmSerif', size: 50, fill: O }),
-  );
+  // official logo, inlined as vector and cropped to the artwork's bbox
+  const logo = brand('tarsi-logo.svg')
+    .toString()
+    .replace(/<\?xml[^>]*>/, '')
+    .replace(/^\s*<svg[^>]*>/, '')
+    .replace(/<\/svg>\s*$/, '');
+  const TB = [741.88, 574.49, 1678.15, 488.56];
+  const tH = 50;
+  s.add(`<svg x="${X}" y="62" width="${n((tH * TB[2]) / TB[3])}" height="${tH}" viewBox="${TB.join(' ')}">${logo}</svg>`);
   s.add(s.text([{ t: 'Behind every great brand', fill: G }, { t: '.', fill: O }], { x: X, y: 142, font: 'dmSerifI', size: 23 }));
   const desc = wrap(
     'An AI-powered brand ecosystem: professional product photos, custom logos, brandbooks and an online store — identity, content and presence, all connected.',

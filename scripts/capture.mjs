@@ -3,7 +3,7 @@
 import puppeteer from 'puppeteer-core';
 
 const PAGES = [
-  ['wegrow', 'https://lp.bywegrow.com/', 2400],
+  ['wegrow', 'https://bywegrow.com/', 2400],
   ['tarsi', 'https://www.tarsi-ai.com/en', 2300],
 ];
 const WIDTH = 1280;

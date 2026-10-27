@@ -128,11 +128,11 @@ async function wegrow() {
   );
   desc.forEach((l, i) => s.add(s.text(l, { x: X, y: 194 + i * 18.5, font: 'bvp400', size: 12.5, fill: '#8A8A8A' })));
   s.add(tags(s, ['AI SDR', 'CRM', 'GROWTH SYSTEMS', 'DATA'], X, 263, { stroke: '#2A2929', text: '#A5A5A5' }));
-  s.add(cta(s, 'lp.bywegrow.com', X, 280, { bg: C, fg: '#041014', font: 'bvp600' }));
+  s.add(cta(s, 'bywegrow.com', X, 280, { bg: C, fg: '#041014', font: 'bvp600' }));
 
   s.add(
     browser(s, {
-      id: 'wg', x: 440, y: 34, w: 368, h: 272, url: 'lp.bywegrow.com', img: shot('wegrow'), imgH: 1365,
+      id: 'wg', x: 440, y: 34, w: 368, h: 272, url: 'bywegrow.com', img: shot('wegrow'), imgH: 1365,
       bar: '#121111', barText: '#BDBDBD', frameFill: BG, stroke: '#2A2828', pill: '#1C1B1B',
     }),
   );

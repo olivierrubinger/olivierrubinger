@@ -19,7 +19,7 @@
 <br />
 <br />
 
-<a href="https://lp.bywegrow.com"><img src="./assets/project-wegrow.svg" width="100%" alt="WeGrow: your entire acquisition system, built and running in 90 days. Visit lp.bywegrow.com" /></a>
+<a href="https://bywegrow.com"><img src="./assets/project-wegrow.svg" width="100%" alt="WeGrow: your entire acquisition system, built and running in 90 days. Visit bywegrow.com" /></a>
 
 <br />
 <br />
